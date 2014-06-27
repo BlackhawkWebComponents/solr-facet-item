@@ -1,0 +1,36 @@
+{
+  "name": "solr-facet-field-item",
+  "homepage": "http://blackhawkwebcomponents.github.io/solr-facet-field-item",
+  "description": "",
+  "main": "solr-facet-field-item.html",
+  "authors": [
+    "Rob Beers"
+  ],
+  "license": "Apache2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "../"
+  ],
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#>=0.3.0 <1.0.0"
+  },
+  "_release": "f36e5171b9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f36e5171b9f3680a416801426f5f7291edd8a786"
+  },
+  "_source": "git://github.com/BlackhawkWebComponents/solr-facet-item.git",
+  "_target": "master",
+  "_originalSource": "BlackhawkWebComponents/solr-facet-item",
+  "_direct": true
+}
