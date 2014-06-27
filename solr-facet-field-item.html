@@ -1,0 +1,42 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Element providing individual item in facet field
+
+##### Example
+
+    <solr-facet-field-item
+        name="videos"
+        count="20"
+    </solr-facet-field-item>
+
+@element solr-facet-field-item
+@blurb Element providing individual item in facet field
+@status alpha
+@url http://blackhawkwebcomponents.github.io/solr-facet-field-item
+-->
+<polymer-element name="solr-facet-field-item" attributes="name count">
+
+    <template>
+        <div>{{name}} - {{count}}</div>
+    </template>
+    <script>
+        Polymer('solr-facet-field-item', {
+
+            /**
+             * A name for solr facet field item
+             * @attribute name
+             * @type string
+             */
+            name: '',
+            /**
+             * A count for solr facet field item
+             * @attribute name
+             * @type string
+             */
+            count: 0
+
+        });
+    </script>
+</polymer-element>
+
